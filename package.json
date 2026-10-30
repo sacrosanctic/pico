@@ -63,5 +63,17 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^22.20.0",
+      "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.25.0",
+      "onFail": "download"
+    }
+  }
 }
